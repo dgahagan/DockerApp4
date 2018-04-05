@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dockerapp4:
+    image: dockerapp4
+    build:
+      context: .
+      dockerfile: DockerApp4/Dockerfile
